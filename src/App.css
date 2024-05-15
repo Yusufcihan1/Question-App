@@ -1,0 +1,230 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 2px solid #84944e;
+  height: 90vh;
+  width: 90vh;
+  border-radius: 20px;
+  background-color: white ;
+}
+.options-head{
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.question-header {
+  height: 100px;
+  border-bottom: 1px solid #B5C18E;
+  border-top: 1px solid #B5C18E;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-number{
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #84944e;
+  border: 1px solid rgb(222, 223, 222);
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+
+
+}
+.options-btn{
+  margin-top: 1rem;
+  width: 150px;
+  height: 90px;
+  padding: 10px;
+  font-size: 14px;
+}
+.text{
+  font-size: 20px;
+  color: #534e48;
+}
+.image{
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: -10px;
+}
+.options-btn{
+  background-color: #EADBC8;
+  color: rgb(29, 40, 38);
+  border: 1px solid #B5C18E;
+}
+body{
+  background-color: #F1F1F1;
+}
+.results{
+  display: flex;
+  gap: 15 px;
+}
+.start-image{
+  width: 300px;
+}
+.start-page{
+  background-image: url("https://marketplace.canva.com/EAFnsrTjHVQ/1/0/1131w/canva-beige-paper-aesthetic-notes-background-a4-document-g9BvF7mZGkg.jpg");
+  background-size: cover;
+  border-radius: 18px;
+  height: 100vh;
+}
+.start-page-body{
+  margin-top: 8rem;
+}
+
+.rules-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: left;
+  width: 600px;
+  margin-left: 8rem;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(131, 33, 33);
+  margin-bottom: 3rem;
+}
+.start{
+  border: 1px solid #009688;
+  font-family: cursive;
+  font-size: 16px;
+  
+}
+
+.header-content{
+  display: flex;
+  
+}
+
+.countdown{
+  width: 80px;
+  display: flex;
+  margin-left: 17rem;
+  margin-top: 0.5rem;
+}
+
+.end-page{
+  border: 1px solid black;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.finish-btn{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.results{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 2rem;
+  margin-left: 3rem;
+  width: 250px;
+}
+.result-li{
+  display: flex;
+  width: 100px;
+  height: 50px;
+
+}
+.keywords-li{
+  display: flex;
+  width: 160px;
+  height: 50px;
+  overflow: auto ;
+  text-align: start;
+}
+.keywords-settings{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.results-settings{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.end-page-li{
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  background-color: #cfbf98;
+  border-radius: 16px;
+  margin: 1px;
+  padding: 0.5rem;
+  
+}
+.end-page-background{
+  background-color: #93c597;
+  border-radius: 20px;
+}
+.ilber{
+  width: 180px;
+
+}
+.ilber-header{
+  display: flex;
+  margin-top: 2rem;
+}
+.ilber-text{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 12px;
+  width: 200px;
+
+}
+
