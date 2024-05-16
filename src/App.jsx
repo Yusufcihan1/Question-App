@@ -12,7 +12,7 @@ function App() {
    const [answer , setAnswer ] = useState('');
    const [options , setOptions] = useState([]);
    const [media , setMedia] = useState([]);
-   const [result , setResult] = useState([])
+   const [result , setResult] = useState([]) 
    const [resultQuestion , setResultQuestion] = useState(false)
    const [currentQuestion] = useState(0);
    const [timer, setTimer] = useState(30);   
@@ -126,6 +126,7 @@ if(correct >= 7){
 },[correct])
 
 
+console.log(options[index].length)
   return (
     <>
     <div>
@@ -204,7 +205,7 @@ if(correct >= 7){
           <span style={{fontFamily:'cursive' , color:'white'}}>Puanınız :  {correct*10} </span>
           </div>
           <div className='ilber-header'>
-            <img className='ilber' src="../public/pictures/2000-removebg-preview.png" alt="" />
+            <img className='ilber' src={ilber} alt="" />
             <div className='ilber-text'>
               <h3>İlber Hoca'nın Yorumu</h3>
               <p id='paragraf'>{ilber}</p>
