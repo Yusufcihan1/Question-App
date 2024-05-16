@@ -3,20 +3,20 @@ export const data = [
     question: "Çin Seddini oluşturan taşlar birbirine ne ile tutturulmuştur?",
     options: ["Bambu Harcı", "Anne Duası", "Pirinç Unu", "Noodle"],
     answer: "Pirinç Unu",
-    media: "../public/pictures/cin-seddi.jpg",
+    media: "../public/cin-seddi.jpg",
   },
   {
     question: "İlk Pamuk şekeri bulan kişinin mesleği nedir?",
     options: ["Gıda Mühendisi", "Diş Doktoru", "Ev Hanımı", "Güzellik Uzmanı"],
     answer: "Diş Doktoru",
-    media: "../public/pictures/pamuk.jpg",
+    media: "../public/pamuk.jpg",
   },
   {
     question:
       "Tarkan'ın 'Hüp' klibini izledikten sonra gaza gelip 'Tarkan keşke beni hüpletseydi' diye açıklamada bulunan kişi kimdir?",
     options: ["Gülben Ergen", "Hülya Avşar", "Harika Avcı", "Sevtap Parman"],
     answer: "Gülben Ergen",
-    media: "../public/pictures/tarkan.jpg",
+    media: "../public/tarkan.jpg",
   },
   {
     question: "Pteronofobi nedir?",
