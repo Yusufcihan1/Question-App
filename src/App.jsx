@@ -3,6 +3,7 @@ import './App.css'
 import { data } from './data'
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
+import  "../public/pictures/balik.jpg"
 function App() {
  
    
