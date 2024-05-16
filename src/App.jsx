@@ -134,12 +134,12 @@ if(correct >= 7){
       <div className='app'>
         <div className='start-page'>
         <div className='start-page-body'>
-        <div>
+        <div className='start-page-body-1'>
           <img className='start-image' src="https://t4.ftcdn.net/jpg/02/87/36/23/360_F_287362356_P2aOUyD53mZHwDFIIOzBAagiaQTgl6q0.jpg" alt="" />
         </div>
         <div>
-          <h2 style={{ marginBottom:'40px', fontFamily:'cursive', color:'#009688'} }>Quiz Time'a Hoşgeldiniz</h2>
-          <h4 style={{ marginBottom:'40px', fontFamily:'cursive' , fontSize:'20px'} } >Test Kuralları </h4>
+          <h2 style={{ marginBottom:'70px', fontFamily:'cursive', color:'#009688'} }>Quiz Time'a Hoşgeldiniz</h2>
+          <h4 style={{ marginBottom:'20px', fontFamily:'cursive' , fontSize:'20px' } } >Test Kuralları </h4>
           </div>
           <div >
             <ul className='rules-list'>
