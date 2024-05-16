@@ -226,6 +226,8 @@ body{
 .ilber-header{
   display: flex;
   margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
 }
 .ilber-text{
   border: 1px solid black;
