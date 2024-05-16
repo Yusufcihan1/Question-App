@@ -126,7 +126,7 @@ if(correct >= 7){
 },[correct])
 
 
-console.log(options[index].length)
+
   return (
     <>
     <div>
@@ -205,7 +205,7 @@ console.log(options[index].length)
           <span style={{fontFamily:'cursive' , color:'white'}}>Puanınız :  {correct*10} </span>
           </div>
           <div className='ilber-header'>
-            <img className='ilber' src={ilber} alt="" />
+            <img className='ilber' src='https://cdnuploads.aa.com.tr/uploads/Contents/2022/06/19/thumbs_b_c_a2b050cf501efa8083ca1f06571f9fb8.jpg?v=224052' alt="" />
             <div className='ilber-text'>
               <h3>İlber Hoca'nın Yorumu</h3>
               <p id='paragraf'>{ilber}</p>
