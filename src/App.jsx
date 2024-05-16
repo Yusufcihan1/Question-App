@@ -183,7 +183,7 @@ if(correct >= 7){
           resultQuestion ? <div className='options-head'>
           {
             options.map((item,index)=>(
-              <button className='options-btn' value={item} onClick={handleClick} key={index}>{item}</button>
+              <button className={options[index].length < 18 ? 'minlength' : 'options-btn'} value={item} onClick={handleClick} key={index}>{item}</button>
             ))
           }
           </div> : null
