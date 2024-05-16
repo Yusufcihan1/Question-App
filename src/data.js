@@ -80,6 +80,6 @@ export const data = [
       "Her şeyin olduğu gibi mutluluğun da fobisi varmış. Bu fobiye ne ad verilir?",
     options: ["Çerofobi", "Euphobia", "Felicifobia", "Mutluluk Korkusu"],
     answer: "Çerofobi",
-    media: fobi
+    media: mutluluk
   },
 ];
