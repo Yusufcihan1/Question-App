@@ -108,12 +108,13 @@ body{
 }
 .start-image{
   width: 300px;
+  margin-top: -60px;
 }
 .start-page{
   background-image: url("https://marketplace.canva.com/EAFnsrTjHVQ/1/0/1131w/canva-beige-paper-aesthetic-notes-background-a4-document-g9BvF7mZGkg.jpg");
   background-size: cover;
   border-radius: 18px;
-  height: 100vh;
+  height: 90vh;
 }
 .start-page-body{
   margin-top: 8rem;
@@ -124,8 +125,8 @@ body{
   flex-direction: column;
   justify-content: start;
   text-align: left;
-  width: 600px;
-  margin-left: 8rem;
+  width: 500px;
+  margin-left: 7rem;
   gap: 1rem;
   margin-top: 1rem;
   font-family:'Courier New', Courier, monospace;
